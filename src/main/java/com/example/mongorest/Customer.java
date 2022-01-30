@@ -16,7 +16,7 @@ import lombok.ToString;
 public class Customer {
 	
 	@Id
-	@ToString.Exclude
+//	@ToString.Exclude
 	private String id;
 	
 	private String firstName;
